@@ -1,24 +1,32 @@
-import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
 
-document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-    </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
-  </div>
-`
 
-setupCounter(document.querySelector('#counter'))
+
+
+const filterTypes = [
+  {
+    "impResp": "FIR",
+    "freqResp": "Low Pass",
+    
+  }
+]
+
+
+
+// const filterSelectWrapper = document.getElementById("filter-select-dropdown-wrapper");
+// const filterSelectButton = document.getElementById("filter-select-dropdown-button")
+// const filterSelectMenu = document.getElementById("filter-select-dropdown").innerText
+// // const firFilterOptions = document.getElementById("")
+
+// filterSelectButton.addEventListener('click', () => {
+//   filterSelectMenu.classList.toggle('hidden');
+// });
+
+// document.addEventListener('click', (event) => {
+//   if (!filterSelectWrapper.contains(event.target)) {
+//     filterSelectMenu.classList.add('hidden');
+//   }
+// });
+
+
+
+
